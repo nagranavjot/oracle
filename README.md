@@ -58,7 +58,7 @@ Output is a report that looks like below.
 
 - To run the application:
 
-		mvn exec:java -Dexec.mainClass="com.oracle.App" -Dexec.args="< filepath of file that contains multiline string >"
+		mvn exec:java -Dexec.mainClass="com.oracle.App" -Dexec.args="<filepath of file that contains multiline string>"
 
 #### From Eclipse/IDE:
 
