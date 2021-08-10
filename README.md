@@ -46,21 +46,21 @@ Output is a report that looks like below.
 
 **Note:** For the convenience of running this application, the current code expects input as a file. Copy the input string in a text file and provide that as input to the program
 
-#####From Maven : 
+#### From Maven: 
 
 - To build the application:
 
-	mvn clean package
+		mvn clean package
 
 - To run the tests:
 
-	mvn clean test
+		mvn clean test
 
 - To run the application:
 
-	mvn exec:java -Dexec.mainClass="com.oracle.App" -Dexec.args="< filepath of file that contains multiline string >"
+		mvn exec:java -Dexec.mainClass="com.oracle.App" -Dexec.args="< filepath of file that contains multiline string >"
 
-#####From Eclipse/IDE :
+#### From Eclipse/IDE:
 
 	Run: public static void main(String[] args) in "com.oracle.App" and set the arguments to input file
 
